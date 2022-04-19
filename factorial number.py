@@ -1,11 +1,14 @@
-number= int(input("enter any number=="))
+var a=require("readline-sync")
+var number=a.questionInt("enter a number")
 i=1
 c=1
-while i<=number:
+while (i<=number){
   c=c*i
-  print(i,"=",c,end="*")
-  i=i+1
+  console.log(i,c)
+  i++
+}
 
 
+  
   
   
